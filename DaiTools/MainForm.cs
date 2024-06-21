@@ -30,5 +30,19 @@ namespace ProjectStructureGenerator
             FormProjectFileReader formProjectFileReader = new FormProjectFileReader();
             formProjectFileReader.Show();
         }
+
+        private void btnMSSQL2EntitiesClass_Click(object sender, EventArgs e)
+        {
+            FormSQLToEntities formSQLToEntities = new FormSQLToEntities();
+            formSQLToEntities.Show();
+        }
+
+  
+
+        private void btnDbSetting_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            FormDatabaseConfiguration formDatabaseConfiguration = new FormDatabaseConfiguration();
+            formDatabaseConfiguration.Show();
+        }
     }
 }
